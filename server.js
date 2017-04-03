@@ -352,5 +352,5 @@ function Bubble(){
 function generateLobbyID(){
     return currentLobbyCount++;
 }
-console.log("Bubble Pop Server running on port 65080");
-server.listen(65080);
+console.log("Bubble Pop Server running on port 8080");
+server.listen(8080);
