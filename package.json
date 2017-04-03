@@ -1,0 +1,17 @@
+{
+  "name": "bubble-pop",
+  "version": "1.0.0",
+  "description": "Bubble Pop Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "gcloud app deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0",
+    "socket.io": "^1.7.3"
+  }
+}
